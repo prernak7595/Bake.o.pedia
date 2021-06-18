@@ -1101,7 +1101,9 @@ section{
 }
 
 @media (max-width: 550px) {
-
+  .best .container .col img{
+  object-fit: contain!important;
+}
 }
 
 @media (max-width: 500px) {
@@ -1113,6 +1115,10 @@ section{
 @media (max-width: 400px) {
   .best .container{
     margin: 0 50px;
+  }
+  .best .container .col img{
+    height: 60vh!important;
+
   }
 }
 
@@ -1205,6 +1211,7 @@ section{
   .health .container .card img{
     height: 40vh!important;
     width: 100%!important;
+    object-fit: contain!important;
   }
   .health .container .card{
     margin: 0 40px;
@@ -1442,6 +1449,7 @@ section{
   .about .container .image{
     margin: 10rem 8rem 5rem!important;
     padding: 6rem!important;
+    object-fit: contain!important;
   }
 }
 
